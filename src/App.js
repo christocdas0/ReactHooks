@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import UseReducerHook from './UseReducerHook';
+import UseEffectHook from './UseEffectHook';
 
 function App() {
   return (
     <>
       <p className='text-center bold'>React Hooks</p>
-      <UseReducerHook/>
+      <UseEffectHook/>
     </>
   )
 }
